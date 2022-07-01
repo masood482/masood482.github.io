@@ -1,0 +1,709 @@
+ */*:after,:before*/{
+      
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: font awesome 5,franklin gothic , verdana, faune one,cinzel;
+  
+
+}
+
+/*:before{
+  display: none;
+}*/
+
+body{
+  width: 100vw;
+ /* height: 100vw;*/
+  overflow: hidden;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  min-width: 1525px;
+  height: auto;
+  padding-left: calc(50% - 762.5px);
+  padding-right: calc(50% - 762.5px);
+  overflow: hidden;
+}
+
+.fa-twitter{
+  
+  color: rgb(29,155,240);
+  font-size: 30px;
+}
+
+
+/*  *******  left column  ********   */
+
+
+.left-column{
+ /* display: flex;
+  flex-direction: column;*/
+ /* flex:1;*/
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  /*max-height: 100vh; */
+  width: 405px;                 /*@ media*/
+  border-right:0.5px solid rgba(235,240,240,1);
+
+}
+
+.left-total-c1{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  height: auto;
+  width: 251px ;
+  align-content: space-between;
+
+}
+
+.logo-list-c1{
+  padding: 2px 2px 10px 0px;
+ 
+}
+.logo-anchor-c1{
+  
+  padding: 2px 2px 10px 0px;
+  margin-bottom: 10px;
+ /* width:50px;
+  height: 50px;
+  border-radius: 25px;*/
+}
+
+.logo-anchor-c1:hover{
+ 
+  /*border: 1px solid black;*/
+  background-color: rgba(235,240,240,1)!important;
+  width:60px;
+  height: 60px;
+  border-radius: 30px;
+} 
+
+#list-homec1{
+  margin-top: 20px;
+}
+
+.logo-c1{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+
+
+}
+
+/* .logo-c1:hover{
+  background-color: rgba(0, 0, 10,0.5);
+}*/
+
+
+.nav-list-c1{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  flex-shrink: 1;
+  width: 251px; 
+  height: 612px;
+  padding: 0px;
+}
+
+.nav-list-c1 ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+
+}
+
+.nav-list-c1 li {
+  display: flex;
+  align-items: right;
+  width: 251px;
+  height: 50px;
+}
+
+
+.nav-list-c1 a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  width: 250px;
+  height: 50px;
+ /* background-color: aqua;*/
+  border-radius: 25px;
+  padding: 10px 5px 5px 20px;
+
+
+}
+
+.nav-list-c1 a:hover{
+
+  background-color: rgba(235,240,240,1);
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+/*  display: block;
+font-size: 18px;
+margin-block-start: 2px;
+margin-block-end: 2px;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;*/
+
+}
+
+.nav-list-c1 a p{
+
+  padding: 2px 2px 2px 5px;
+
+}
+
+.more-opt-c1{
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  display:flex;
+  flex-direction: column;
+  width: 225px;
+  height: auto;
+  padding: 5px;
+  background-color: rgba(225,225,225,1);
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+  opacity:0;
+  z-index: -1;
+
+}
+
+.more-c1:hover .more-opt-c1{
+  opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tweet-btn-c1{
+height: 50px;
+width: 250px;
+padding: 2px;
+border-radius: 25px;
+/* background: #126596 ;*/
+}
+
+.tweet-btn-c1 form{
+
+height: 46px;
+width: 246;
+padding: 2px;
+border-radius: 23px;
+/*background: #1882c0 ;*/
+
+}
+
+.tweet-btn-c1 form button{
+height: 44px;
+width: 244px;
+padding: 2px;
+background: #1da3f0 ;
+border-radius: 22px;
+}
+
+
+.account-info-c1{
+height: 55px;
+width: 250px;
+padding: 0px;
+/*background: #067dc2 ;*/
+border-radius: 27.5px;
+/*border: 0.1px solid black;*/
+
+
+}
+
+.acc-logo-c1{
+display: flex;
+flex-direction: row;
+height: 55px;
+width: 250px;
+padding: 0px 0px 0px 0px;
+/*background: #1da3f0 ;*/
+border-radius: 27.5px;
+
+
+
+}
+
+.acc-logo-c1 a{
+display: flex;
+flex-direction: row;
+text-decoration: none;
+color: black;
+height: 55px;
+width: 250px;
+padding: 0px;
+/*background: #093147 ;*/
+border-radius: 27.5px;
+}
+
+.acc-logo-c1 a:hover{
+
+background-color: rgba(0,0, 0, 0.1);
+
+}
+
+.acc-logo-c1 a img{
+height: auto;
+width: auto;
+border-radius: 25px;
+
+}
+
+.uname-accname-c1 {
+padding: 4px;
+height: 50px;
+width: 220px;
+
+}
+
+.uname-accname-c1 p{
+font: 16px cinzel ;
+font-variant: lowercase;
+}
+
+
+
+
+
+
+
+
+
+
+/*  *******  main column  ********   */
+
+
+.twi-main{
+  flex: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 1120px;   /* @media */
+  height: auto; 
+  /*border: 0.1px solid black;*/
+}
+
+/*  *******  main column - middle section  ********   */
+
+.twi-c2{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 598px;
+  min-height: 210;
+
+
+}
+
+.tweeting-area-c2{
+  width: 598px ;
+  min-height: 170px;
+  border-bottom:0.5px solid rgba(235,240,240,1);
+  padding: 16px;
+}
+
+.home-header-c2{
+  display: flex;
+  justify-content: space-between;
+  width: 598px;
+  height: 54px;
+  /*background-color: rgba(255,255,255,0.3);*/
+  padding: 10px;
+}
+
+.home-header-c2 p{
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.home-c2{
+  display: flex;
+  flex-direction: row;
+  width: 598px;
+  min-height:120px;
+}
+
+.acc-logo-c2{
+  width: 48px;
+  min-height: 108px;
+  padding: 0px 0px 20px 0px;
+  margin: 0px 12px 0px 0px;
+}
+
+.acc-logo-c2 a{
+  width: 48px;
+  height: 48px;
+
+}
+
+.acc-logo-c2 a img{
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+
+}
+
+.tweet-area-c2{
+  width: 506px;
+  min-height: 145px;
+ /* background-color: aquamarine;*/
+}
+
+.tweet-area-c2 form{
+
+  width: 502px;
+  min-height: 143px ;
+
+}
+
+.tweet-area-c2 form input{
+
+  width: 502px;
+  min-height: 64px ;
+  padding: 12px 0px 12px 12px;
+  outline: none;
+  border: none;
+
+}
+
+.tweet-area-c2 form input::placeholder{
+  font-size: 22px;
+}
+
+.ecr-c2{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 37px;
+  padding: 0px 306px 10px 0px;
+  border-bottom: 0.5px solid rgba(235,240,240,1);
+
+}
+
+.ecr-c2 a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 18px bold;
+  color: rgb(29,155,240);
+
+}
+
+.ecr-c2 a p {
+  padding: 0px 0px 0px 10px;
+}
+
+.att-sub-c2{
+  display: flex;
+  flex-direction: row;
+  width: 502px;
+  height: 48px;
+}
+
+.attachment-c2{
+  display: flex;
+  flex-direction: row;
+  width: 502px;
+  height: 48px;
+
+}
+
+.fa-image , .fa-gif ,.fa-square-poll-horizontal, .fa-face-smile ,.fa-calendar-clock ,.fa-location-dot{
+  font-size: 16px;
+  color: rgb(29,155,240);
+  padding: 20px 10px 10px 0px;
+}
+
+.submit-tweet-c2{
+  display: flex;
+  flex-direction: row;
+  width: 165px;
+  height: 36px;
+  margin-top: 12px;
+
+}
+
+
+
+
+.word-counter-c2{
+  position:relative;
+  width: 30px;
+  height: 30px;
+
+  display: none;
+}
+
+
+.extra-words-c2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  display:none;
+}
+
+
+.divider-c2{
+
+  width: 1px;
+  height: 35px;
+  margin: 0px 12px 0px 10px;
+  background-color: grey;
+  display: none;
+}
+
+
+
+.add-new-tw-c2{
+
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(31, 30, 30, 0.3);
+  margin-top: 7px;
+  display: none;
+
+}
+
+.add-c2{
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 0.5px solid rgba(255,255,255,0.3);
+}
+
+
+.sub-tweet-c2{
+  width: 76px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: rgb(29,155,240);
+  margin-left: 12px;
+}
+
+.show-tweet-c2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+    width: 598px;
+    height: 48px;
+    border-top:1px solid rgba(235,240,240,1);
+    border-bottom: 1px solid rgba(235,240,240,1);
+    margin: 2px 0px;
+       
+  }
+
+  .show-tweet-c2 a{
+    text-decoration: none;
+    color:rgb(29,155,240);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 598px;
+    height: 48px;
+  
+
+  }
+
+  .number-c2{
+    margin: 0px 16px 0px 16px;
+  }
+
+
+
+
+
+/*  *******  main column - right section  ********   */
+
+.twi-c3{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100vh;
+  border-left: 0.5px solid rgba(235,240,240,1);
+
+}
+
+.twi-search-follow-c3{
+
+  width: 288px 
+
+}
+
+.search-btn-c1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 53px;
+  /*border: 0.1px solid black;*/
+  /*border-radius: 26.5px;*/
+  margin: 10px 10px 10px 10px;
+  /*background-color: rgba(239,243,244,1);*/
+
+
+}
+
+.form-c1{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  height: 43px;
+  border-radius:22.5px 0px 0px 22.5px ;
+  /*padding:10px 10px 10px 10px;*/
+  /*border: 0.1px solid black;*/
+  
+
+}
+
+.search-icon-c2{
+  position: absolute;
+  top:10px;
+  left:15px;
+  width: 44px;
+  height: 42px;
+}
+
+.fa-search{
+  font-size: 20px;
+  color: gray;
+  width: 44px;
+  height: 42px;
+  
+}
+
+.form-c1 input{
+  width: 288px;
+  height: 45px;
+  border-radius:  22.5px 22.5px 22.5px 22.5px;
+  padding:10px 10px 10px 40px;
+  /*border: 0.1px solid black;*/
+  background-color: rgba(239,243,244,1);
+  
+}
+
+.form-c1 input:focus{
+  outline: none;
+}
+
+.form-c1 input::placeholder{
+  font-size: 16px;
+}
+
+
+
+
+.w-is-h-c3{
+  width: 288px;
+  min-height: 100px;
+  border-radius: 15px;
+  background-color:rgba(239,243,244,1);
+  margin: 15px;
+}
+
+.w-is-h-c3-header{
+
+width: 288px;
+height: 48px;
+padding: 10px 16px 10px 16px;
+
+}
+
+.w-is-h-c3 h3{
+
+  font-size: 21px;
+  font-weight: 900;
+}
+
+
+.trend-cards-c3{
+  width: 284px;
+  min-height: 100px;
+  padding: 2px;
+
+
+}
+
+.wh-to-foll-c3{
+  width: 288px;
+  min-height: 100px;
+  border-radius: 15px;
+  background-color:rgba(239,243,244,1);
+  margin: 15px;
+}
+
+.wh-to-foll-c3-header{
+
+width: 288px;
+height: 48px;
+padding: 10px 16px 10px 16px;
+
+}
+
+.wh-to-foll-c3-header h3{
+
+font-size: 21px;
+font-weight: 900;
+}
+
+.sug-card-c3{
+width: 284px;
+min-height: 100px;
+padding: 2px;
+}
+
+  
+.t-and-c-c4{
+width: 290px;
+min-height: 60px;
+padding: 0px 16px;
+
+}
+.t-a-c-c4 a{
+text-decoration: none;
+font-size: 16px;
+color: rgb(177, 169, 169);
+}
+
+
