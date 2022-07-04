@@ -11,7 +11,7 @@
   
 
   <script>
-    nam = prompt('Please Enter A Name');
+  /*  nam = prompt('Please Enter A Name');
     gtr = "";
     len = nam.length;
     function spacify(){
@@ -21,8 +21,24 @@
       return gtr;
      // document.getElementById("display").innerHtml = nam;
     }
-    console.log(spacify());
-    document.getElementById("display").innerHTML = gtr;
+    console.log(nam.prototype.spacify());
+    document.getElementById("display").innerHTML = gtr;*/
+
+
+    nam = prompt('Please Enter A Name');
+    gtr = "";
+    len = nam.length;
+String.prototype.spacify = function () {
+    for(x=0;x <= len ;x++){
+      gtr += " " + nam.charAt(x);
+    };
+  document.getElementById("display").innerHTML = gtr;
+      return gtr;
+     // document.getElementById("display").innerHtml = nam;
+   
+    }
+		
+nam.spacify();
   </script>
 </body>
 </html>
