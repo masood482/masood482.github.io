@@ -131,6 +131,7 @@ a{
 .social{
   margin: 10px auto;
   width:25% ;
+  min-width: 300px;
   position: relative;
   /*border: 2px solid black;*/
 }
